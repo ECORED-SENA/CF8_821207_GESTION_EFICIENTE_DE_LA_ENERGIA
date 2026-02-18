@@ -189,7 +189,7 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-play(style="color:#AD84FF")
-            | #[strong A. Atlas Solar de Radiación Solar, Ultravioleta y Ozono de Colombia (opción 1):]
+            | #[strong A. Atlas Solar de Radiación Solar, Ultravioleta y Ozono de Colombia]
 
     p.mb-4(data-aos="fade-down") Según IDEAM, UPME. (2017) el Atlas de Radiación Solar, Ultravioleta y Ozono de Colombia es una herramienta fundamental para la valoración de la disponibilidad de la energía solar en el territorio nacional y para conocer el comportamiento de la radiación ultravioleta, el ozono y sus relaciones, que contribuyen a entender sus efectos en la salud humana.  El atlas contiene un conjunto de mapas climatológicos en donde se representan la distribución promedio mensual y anual de las siguientes variables: irradiación solar global horizontal, brillo solar, número de días al mes sin brillo solar, radiación ultravioleta y la columna total de ozono, acompañadas de análisis regionales del comportamiento promedio anual y a lo largo del año de estas variables. También contiene datos teóricos acerca del comportamiento del sol, información acerca de las fuentes de información e instrumentos de medición, y anexos con información adicional. 
 
@@ -199,7 +199,7 @@
           img(src='@/assets/curso/temas/tema2/tema2-21.png', alt='')
       .col-12.col-md-8.mb-4.mb-md-0
         .cajon.tarjeta--azul.p-3
-          p #[b Existen dos formas para consultar la documentación del atlas.] Una de ellas es utilizar la herramienta en línea desarrollada por el IDEAM accediendo al siguiente enlace: #[a(href="http://atlas.ideam.gov.co/visorAtlasRadiacion.html" target="_blank" style="color:blue") #[b http://atlas.ideam.gov.co/visorAtlasRadiacion.html]] #[b y descargando los mapas y tablas que allí reposan.] 
+          p #[b Existen dos formas para consultar la documentación del atlas.] Una de ellas es utilizar la herramienta en línea desarrollada por el IDEAM accediendo al siguiente enlace: #[a(href="http://atlas.ideam.gov.co/visorAtlasRadiacion.html" target="_blank" style="color:blue") #[b http://atlas.ideam.gov.co/visorAtlasRadiacion .html]] y descargando los mapas y tablas que allí reposan.
           .row.justify-content-center.align-items-center
             .col-12.mb-4.mb-md-0(data-aos="fade-left")
               .tarjeta.color-primario.p-3
@@ -209,9 +209,9 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        p.text-small En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
+                        p En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo3_2_1_2_MC_Atlas_Solar_Colombia.pdf')" target="_blank")
+                        a.boton.color-acento-botones(href="https://www.andi.com.co/uploads/radiacion.compressed.pdf" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
 
@@ -390,14 +390,14 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-play(style="color:#AD84FF")
-            | #[strong A. Atlas de Viento y Energía Eólica de Colombia (opción 1):]
+            | #[strong A. Atlas de Viento y Energía Eólica de Colombia]
 
     p.mb-5(data-aos="fade-down-right") Según IDEAM, UPME. (2006) el Atlas de Viento y Energía Eólica de Colombia es una colección de mapas que muestra la distribución espacial del viento en superficie. Adicionalmente para la evaluación de la energía disponible, se muestra el valor promedio mensual y anual de la densidad de energía eólica a dos distintas alturas (20 y 50 metros), lo cual sirven como referencia para Colombia para el uso de energías alternativas, determinando las épocas del año y las zonas de Colombia donde se puede aprovechar las características del viento para dar soluciones a las necesidades energéticas de la nación.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-left")
       .col-12.col-md-12.mb-4.mb-md-0
         .cajon.tarjeta--azul.p-3
-          p #[b Existen dos formas para consultar la documentación del atlas.] Una de ellas es utilizar la herramienta en linea desarrollada por el IDEAM accedienco al siguiente enlace: #[a(href="http://atras.ideam.gov.co/visorAtlasVientos.html" target="_blank") #[b http://atras.ideam.gov.co/visorAtlasVientos.html]] #[b y descargando los mapas y tablas que allí reposan]. 
+          p #[b Existen dos formas para consultar la documentación del atlas.] Una de ellas es utilizar la herramienta en linea desarrollada por el IDEAM accedienco al siguiente enlace: #[a(href="http://atras.ideam.gov.co/visorAtlasVientos.html" target="_blank") #[b http://atras.ideam.gov.co/visorAtlasVientos.html]] y descargando los mapas y tablas que allí reposan. 
           .row.justify-content-center.align-items-center
             .col-12.mb-4.mb-md-0(data-aos="fade-left")
               .tarjeta.color-primario.p-3
@@ -407,9 +407,9 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        p.text-small En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
+                        p En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo4_2_1_3_MC_Atlas_Eolico_Colombia.pdf')" target="_blank")
+                        a.boton.color-acento-botones(href="https://www.andi.com.co/uploads/viento.compressed.pdf" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
 

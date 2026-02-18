@@ -227,14 +227,6 @@ export default {
       link: 'https://www.youtube.com/watch?v=Rq_EPoKHmgo',
     },
     {
-      tema: 'Calibración de los instrumentos de medición',
-      referencia:
-        'Testo Argentina (2021). Certificados de calibración de equipos patrones. ',
-      tipo: 'Archivo ejemplo certificado de calibración testo argentina.',
-      link:
-        'https://www.testo.com/es-AR/Certificados+de+calibraci%C3%B3n+de+equipos+patrones/certpat',
-    },
-    {
       tema: 'Potencial energético de la energía solar',
       referencia:
         'IDEAM. (2016). Atlas de radiación solar, ultravioleta, y ozono de Colombia. Aspectos Teóricos. ',
@@ -315,12 +307,6 @@ export default {
         'Rojano Ramos, S. (2012). Instrumentación y control en instalaciones de procesos, energía y servicios auxiliares (MF0047_2). IC Editorial. ',
       link:
         ' https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42688',
-    },
-    {
-      referencia:
-        'UPME. (2015). Integración de las energías renovables no convencionales en Colombia. ',
-      link:
-        'http://www.upme.gov.co/Estudios/2015/Integracion_Energias_Renovables/INTEGRACION_ENERGIAS_RENOVANLES_WEB.pdf',
     },
     {
       referencia: 'UPME. (2020). Plan Energético Nacional 2020-2050. ',
